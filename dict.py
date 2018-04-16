@@ -84,10 +84,10 @@ final=Cosine(score1(),score2())
 final2=math.cos(score2())
 final=final1+final2
 """
-if (final>0.5):
-  print("Files are similar because final value is",str(final))
+if (final<=1):
+  print("The two files are similar because final value is",str(final))
 else:
-  print("Files are dissimilar because final value is",str(final))
+  print("The two files are dissimilar because final value is",str(final))
   
   
 
