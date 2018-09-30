@@ -14,7 +14,7 @@ def read_data():
             data[column] = le.fit_transform(data[column])"""
 
     #to print the headers of dataset
-    print("First five rows in dataset are:")
+    print("First five observations in dataset are:")
     print(data.head())
     return data
 
