@@ -8,11 +8,7 @@ from sklearn.metrics import classification_report
 #from sklearn.preprocessing import LabelEncoder
 def read_data():
     data=pd.read_csv('adult.csv',sep=',')
-    """for column in data.columns:
-        if data[column].dtype == type(object):
-            le = LabelEncoder()
-            data[column] = le.fit_transform(data[column])"""
-
+   
     #to print the headers of dataset
     print("First five observations in dataset are:")
     print(data.head())
